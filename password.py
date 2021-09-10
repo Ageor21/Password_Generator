@@ -15,8 +15,8 @@ def password_generator():
     punctuation_sign2 = chr(random.randint(33, 152))
 
     password = uppercase_letter1 + uppercase_letter2 + lowercase_letter1 \
-               + lowercase_letter2 + digit1 + digit2 +\
-               punctuation_sign1 + punctuation_sign2
+               + lowercase_letter2 + digit1 + digit2 \
+               + punctuation_sign1 + punctuation_sign2
 
     random.shuffle(list(password))
 
