@@ -24,8 +24,6 @@ def password_generator():
                + lowercase_letter2 + digit1 + digit2 \
                + punctuation_sign1 + punctuation_sign2
 
-    # Shuffles all characters around
-    random.shuffle(list(password))
     
     # Returns the output 
     return print(password)
